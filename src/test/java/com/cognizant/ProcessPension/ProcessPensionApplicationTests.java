@@ -11,9 +11,9 @@ import com.cognizant.ProcessPension.modelTest.ProcessPensionModelTest;
 import com.cognizant.ProcessPension.serviceTest.ProcessPensionServiceTest;
 
 
-@RunWith(Suite.class)
-@SuiteClasses({ProcessPensionModelTest.class,ProcessPensionControllerTest.class,ProcessPensionServiceTest.class})
-
+//@RunWith(Suite.class)
+//@SuiteClasses({ProcessPensionModelTest.class,ProcessPensionControllerTest.class,ProcessPensionServiceTest.class})
+@SpringBootTest
 public class ProcessPensionApplicationTests {
 
 	
